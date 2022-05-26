@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*{
+    font-family: Acme;
+}
+body{
+    background-color: #f2f2f2;
+}
+body{
+    overflow-x: hidden;
+}
+hr{
+    margin: 0!important;
+}
+ol{
+    padding: 0; 
+}
+ol li{
+    list-style-type: none;
+  }
+@supports ((-webkit-backdrop-filter:blur(2em)) or (backdrop-filter:blur(2em))) {
+    .backdrop-blur {
+      transition: 0.5s;
+      background-color: rgba(0, 0, 0, 0.75);
+      -webkit-backdrop-filter: blur(20px);
+      backdrop-filter: blur(20px)
+    }
+    .backdrop-blur-white{
+        transition: 0.5s;
+        background-color: rgba(255, 255, 255, 0.75);
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px)
+    }
+  }
+.navbar-brand,.nav-link{
+    color:white!important;
+}
+#caro,#caro2{
+    font-family: Acme;
+    background-color: #65a467;
+}
+#caro h1,#caro2 h1{
+    font-weight: bolder;
+}
+::selection{
+    background-color:black;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.column{
+    flex-direction: column;
+}
+.navbar-light .navbar-brand {
+    display: flex;
+    align-items: flex-end;
+}
+a{
+    font-weight: 500;
+}
+.c-search input{
+    border-radius: 48px;
+    border: 1px solid #DADADA;
+    height: 35px;
+    padding: 0 20px;
+}
+*:focus {
+    outline: none;
+}
+#root .navbar-collapse {
+    flex-grow: 0;
+}
+.landing-page{
+    height: 100vh;
+    background-image: url('images/basket-918416_1920.jpg');
+    background-size: cover;
+    flex-direction: column;
+}
+.landing-page h1{
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+}
+p{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    padding: 0 20px ;
+}
+.greeting{
+    width: 50%;
+    flex-direction: column;
+}
+.greeting button,.order button{
+    transition: 0.3s;
+    height: 50px;
+    width: 150px;
+    border: none;
+    background-color:rgb(20, 20, 20);
+    color: white;
+    
+}
+.greeting button:hover{
+    transition: 0.3s;
+    height: 55px;
+    width: 200px;
+}
+.containers{
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 100%;
+}
+.containers h1{
+    margin:0 0 60px 0px;
+}
+#carousel-slick,#carousel-slick2{
+    width: 80vw;
+}
+.carousel-main{
+    height: 800px;
+}
+#carousel-slick .slick-list, #carousel-slick2 .slick-list{
+    height: 385px;
+}
+.slick-prev {
+    left: -50px!important;
+    z-index: 1000!important;
+}
+.slick-next{
+    right:-37px!important;
+    z-index: 1000!important;
+}
+.slick-prev:before, .slick-next:before {
+    font-size: 50px!important;
+}
+.slick-slide{
+    width: 300px!important;
+    margin: 0 30px 30px 0!important;
+}
+.slick-track{
+    height: 400px;
+}
+.items{
+    width: 300px!important;
+    height: 300px;
+    margin: 0 0px 30px 0;
+    overflow: hidden;
+    box-shadow: -1px 3px 12px 1px rgba(0,0,0,0.75);
+    background-color: #000;
+    position: relative;
+}
+.item-card{
+    margin-right: 30px;
+}
+.items img{
+    transition: 0.5s;
+    width: auto;
+    height: 100%;
+}
+.items img:hover{
+    transition: 0.5s;
+    height: 110%;
+    width: auto;
+}
+.order{
+    margin: 10px 0 0 0;
+}
+.order-abs{
+    position: absolute;
+    bottom:0%;
+}
+.stat-order button{
+    background-color: rgba(0, 0, 0, 0.7);
+    
+}
+.Buy button{
+    background-color: #DADADA;
+    color:black
+}
+.Buy2 button{
+    background-color: black;
+    color:white;
+}
+.Boi{
+    width: 300px;
+    overflow: hidden;
+}
+.Coi a button{
+    width: 150px;
+}
+.Coi{
+    transition: 0.5s;
+    width: 50%;
+    margin: 0 5px;
+}
+.Coi:hover{
+    transition: 0.5s;
+    width: 70%;
+}
+.order button{
+    transition: 0.5s;
+    width: 300px;
+    font-size: 18px;
+}
+.items:hover~.order-abs button,.order-abs button:hover{
+    height: 150px;
+} 
+.Buy button:hover{
+    transition: 0.5s;
+    width: 200px;
+}
+.subs{
+    height: 70vh;
+    background-image: url('https://thumbor.thedailymeal.com/d5Uau-OAI-QEm1BpO5lr3LR-kHw=//https://www.thedailymeal.com/sites/default/files/2019/07/03/supermarketcart_main.JPG');
+    background-size: cover;   
+}
+.subs h1{
+    font-weight: bolder;
+}
+.subs p{
+    color:black;
+    
+}
+.cart{
+    transition: 1s;
+    position: fixed;
+    top: 25vh;
+    overflow-y: scroll;
+    right: 0;
+    z-index: 10001 ;
+    display: block;
+    width: 440px;
+    height: 50px;
+    border: 1px solid #e9e9e9;
+    border-radius: 8px 0 0 8px;
+    box-shadow: 0 0 12px 4px rgb(0 0 0 / 5%);
+    white-space: nowrap;
+    -ms-transform: translate(379px,0px); /* IE 9 */
+    transform: translate(379px,0px); /* Standard syntax */
+}
+.cart:hover{
+    transition: 1s;
+    height: 300px;
+    -ms-transform: translate(0px,0px); /* IE 9 */
+    transform: translate(0px,0px); /* Standard syntax */
+    
+}
+.cart-header{
+    padding: 11px!important;
+}
+.queue-list,.cart-header{
+    justify-content: space-between!important;
+}
+.queue-list{
+    padding: 0 11px!important;
+}
+.queue-list:hover{
+    background-color: white;
+}
+.cart-header button{
+    background-color: rgb(101, 164, 103);
+    border: none;
+    border-radius: 48px;
+}
+.queue-item button{
+    background-color: black;
+    border: none;
+    border-radius: 48px;
+    color:white;
+    font-size: small;
+}
+
+.queue-item{    
+    padding: 11px 5.5px;
+}
+.queue-item p{
+    color: black;
+    font-size: 10px;
+    font-family: poppins;
+    line-height: 15px;
+    margin-bottom: 0!important;
+}
+.queue-item-dial{
+    width: 40px;
+}
+.queue-img{
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+.queue-img img{
+    width: auto;
+    height: 100%;
+}
+/* shopping */
+.shopping-main{
+    margin: 100px 0;
+    height: 100vh;
+}
+#contain{
+    margin:100px;
+}
+#contain-shop{
+    width: 100%;
+}
+#contain-shop .col-lg-3 .item-card{
+ margin:50px 0;
+}
+.popup{
+    position: fixed;
+    z-index: 1;
+    border-radius: 8px;
+    left: 45%;
+    bottom: 100px;
+}
+.popup a button{
+
+    transition: 0.5s;
+    background-color: rgb(240, 255, 108);
+    border-radius: 5px;
+    border: none;
+    visibility: hidden;
+}
+
+.shopping-page{
+    padding: 1px 0;
+    background-color: rgb(101, 164, 103);
+}
+
+#shopping-thumbnail{
+    position: relative;
+}
+.billbox{
+    width: 50%;
+    position: absolute;
+    background-color: #DADADA;
+    border-radius: 8px;
+}
+.bill-main{
+    position: fixed;
+    z-index: 10002;
+    top: 0px;
+    height: 100vh;
+    width: 100%;
+    display: none;
+}
+.payment{
+    height: 100vh;
+}
+.payment img{
+    width: 150px;
+    height: auto;
+}
+.register-main{
+    height: 100vh;
+    background-color: #323232;
+}
+.registerLogin{
+    height: 500px;
+    width: 30%;
+    background-color: #1e7e34;
+    border-radius: 8px;
+    box-shadow: -1px 3px 30px -6px rgb(0 0 0 / 75%);
+}
+.registerLogin button,.registerLogin input{
+    width: 250px;
+    height: 50px;
+    border-radius: 2px;
+    color: rgba(0, 0, 0, 1);
+    border: 1px solid #DADADA;
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 24%) 0px 2px 2px 0px, rgb(0 0 0 / 24%) 0px 0px 1px 0px;
+    font-size: 14.5px;
+}
+.registerLogin .center{
+    width: 100%;
+}
+.registerLogin hr{
+    width: 80%;
+    margin-top: 30px!important;
+    background-color: white;
+}
+.registerLogin button:hover{
+    background-color:rgb(101, 164, 103);
+}
+.register-options{
+    margin-top: 30px;
+}
+.log p,.username{
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.loginButton{
+    background-color: black!important;
+    border:none!important;
+    color: white!important;
+}
+
+.account-main{
+    padding-top: 100px;
+}
+.account-main p{
+    color: black;
+}
+.account-image img{
+    float: right;
+    border-radius: 100%;
+    height: 60px;
+}
+.filter{
+    transition: 0.6s;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: black;
+    border: none;
+    position: fixed;
+    bottom:37px;
+    right: 30px;
+}
+.filter:hover{
+    transition: 0.6s;
+    width: 70px;
+    height: 70px;
+}
+.filter i{
+    color: white;
+}
+.retailer-add{
+    right: 86px;
+    background: #dfdfdf;
+    font-size: 27px;
+}
+.form-main{
+    position: fixed;
+    z-index: 10002;
+    top: 0px;
+    height: 100vh;
+    width: 100%;
+    display: none;
+}
+.close-form{
+    position: absolute;
+    top: 15%;
+    right: 35%;
+}
+.close-form button{
+    border:none;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
+.form-main input{
+    height: 50px;
+    width: 30vw;
+    margin: 10px;
+    border: none;
+    border-radius: 48px;
+    background: #c9d2c9;
+    padding: 0 20px;
+}
+.innermart-main{
+    padding-top: 120px;
+}
+.DepthSearch-main{
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 3px 46px -20px;
+    margin-bottom: 50px;
+}
+.DepthSearch-image img{
+    width: 100%;
+    border-radius: 8px;
+}
+.innermart-main p,.innermart-main h6{
+    color: black;
+}
+.depth-matter{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.depth-button button{
+    width: 100%;
+    height: 50px;
+    border: none;
+    margin: 10px 0;
+}
+::-webkit-scrollbar {
+    width: 1.5px;
+    background-color: black;
+  }
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, .3);
+    border-radius: 10px
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: outset 0 0 6px 20px rgba(0, 0, 0, .3);
+    background:rgb(101, 164, 103);
+  }
+@media screen and (max-width:672px) {
+
+    .slick-prev:before, .slick-next:before {
+        font-size: 20px!important;
+    }
+    .landing-page h1 {
+        font-size: 40px;
+    }
+    .greeting {
+        width: 85%;
+    }
+    p {
+        font-size: 17px;
+    }
+    .c-search input {
+        width: 80vw;
+    }
+    .order button{
+        width: 250px;
+    }
+    .greeting .order button{
+        width: 40vw;
+    }
+    .slick-slide {
+        width: 250px!important;
+    }
+    .items {
+        width: 250px!important;
+        height: 250px;
+    }
+    .Boi {
+        width: 250px;
+    }
+    .Coi a button {
+        width: 120px;
+    }
+    .slick-next{
+        right: -25px!important;
+    }
+    .slick-prev {
+        left: -25px!important;
+    }
+}
